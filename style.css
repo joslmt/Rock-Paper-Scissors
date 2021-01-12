@@ -1,0 +1,60 @@
+*{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;}
+body{ background: -webkit-linear-gradient(180deg, #30cfd0, #330867); }
+#colorG{
+    background-color: white;
+    border-radius: .5em;
+}
+img{ max-width: 100%; }
+.container{
+    margin: 0 auto;
+    width: 80%;
+    padding: 3em;
+    display: grid;
+    justify-items: center;
+}
+#counter{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: .5em;
+    width: 60%;
+    gap: .25em;
+    border-bottom: 3px solid black;
+}
+#counter>p{
+    font-size: 25px;
+}
+#counter>div{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 2em;
+    width: 2em;
+    border: 3px solid black;
+    border-radius: .15em;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+    gap: 10%;
+}
+.game>div{
+    width: 18%;
+}
+input[type=button]{
+    width: 45%;
+    padding: 1em;
+    box-shadow: 3px 3px black;
+    border: none;
+    outline: none;
+}
+input[type=button]:hover{ background-color: grey; color: white;}
+#logo{
+    font-size: 25px;
+    font-style: italic;
+    width: 100%;
+}
